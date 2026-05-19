@@ -32,3 +32,20 @@ if num3 > maior:
 resp = varificar_maior_3n(num1, num2, num3)
 
 print("Maior: ", resp)
+
+#                  3       5
+def exibir_tabuada(t: int, m: int) -> None:
+    for i in range(1, m + 1, 1):
+        mult = i * t
+        print(f"{t} x {i} = {mult}")
+
+
+
+
+# --------- Programa Principal
+# Joaldo -> Aluno que tem medo de usar parametros em subalgoritmos
+tab = int(input("Tabuada: ")) # 3
+multiplicador = int(input("Multiplicador: ")) # 5
+#               3         5
+exibir_tabuada(tab, multiplicador)
+ 
